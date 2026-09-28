@@ -8,6 +8,12 @@
     "observability": {
         "enabled": true
     },
+    "routes": [
+        {
+            "pattern": "bark.novoagatto.com",
+            "custom_domain": true
+        }
+    ],
     "d1_databases": [
         {
             "binding": "database",
@@ -18,7 +24,7 @@
     "keep_vars": true,
     "vars": {
         "ALLOW_NEW_DEVICE": "true",
-        "ALLOW_QUERY_NUMS": "true",
+        "ALLOW_QUERY_NUMS": "false",
         "ROOT_PATH": "/",
         // "BASIC_AUTH": ""
     }
