@@ -23,7 +23,7 @@
     ],
     "keep_vars": true,
     "vars": {
-        "ALLOW_NEW_DEVICE": "true",
+        "ALLOW_NEW_DEVICE": "false",
         "ALLOW_QUERY_NUMS": "false",
         "ROOT_PATH": "/",
         // "BASIC_AUTH": ""
